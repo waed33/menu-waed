@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+
+/* Navbar */
+
+.navbar{
+    width:100%;
+    height:85px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 80px;
+
+    background:#111827;
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+
+
+/* Logo */
+
+.logo{
+    color:#f59e0b;
+    font-size:30px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+
+/* Links */
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:40px;
+
+    list-style:none;
+}
+
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:500;
+
+    transition:0.3s;
+
+}
+
+
+.nav-links a:hover{
+
+    color:#f59e0b;
+
+}
+
+
+/* Order Button */
+
+.nav-btn{
+
+    padding:12px 30px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:#f59e0b;
+
+    color:#111827;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+.nav-btn:hover{
+
+    background:white;
+
+    transform:scale(1.05);
+
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .navbar{
+
+        padding:20px;
+
+        flex-direction:column;
+
+        height:auto;
+
+        gap:20px;
+
+    }
+
+
+    .nav-links{
+
+        gap:20px;
+
+    }
+
+
+    .logo{
+
+        font-size:25px;
+
+    }
+
+}

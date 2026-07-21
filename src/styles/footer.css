@@ -1,0 +1,160 @@
+.footer{
+
+    background:#fbbf24;
+    color:#111827;
+
+    padding:30px 8% 10px;   /* كان 50px */
+
+    margin-top:0;
+
+}
+
+
+
+/* Main layout */
+
+.footer-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:40px;    /* كان 60px */
+
+}
+
+
+
+/* Sections */
+
+.footer-brand,
+.footer-contact,
+.footer-social{
+
+    flex:1;
+
+}
+
+
+
+/* Titles */
+
+.footer h2{
+
+    color:#111827;
+
+    font-size:28px;   /* كان 32px */
+
+    margin-bottom:10px;
+
+}
+
+
+
+.footer h3{
+
+    color:#111827;
+
+    font-size:19px;   /* كان 22px */
+
+    margin-bottom:12px;
+
+}
+
+
+
+/* Text */
+
+.footer p{
+
+    color:#1f2937;
+
+    font-size:15px;
+
+    line-height:1.5;
+
+    margin:5px 0;
+
+}
+
+
+
+/* Links */
+
+.footer a{
+
+    display:block;
+
+    color:#1f2937;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    margin:6px 0;
+
+    transition:.3s;
+
+}
+
+
+
+.footer a:hover{
+
+    color:white;
+
+    transform:translateX(6px);
+
+}
+
+
+
+/* Contact Hover */
+
+.footer-contact p:hover{
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+
+
+/* Copyright */
+
+.copyright{
+
+    margin-top:20px;      /* كان 40px */
+
+    padding-top:10px;     /* كان 20px */
+
+    border-top:1px solid rgba(17,24,39,.3);
+
+    text-align:center;
+
+    color:#111827;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:900px){
+
+    .footer-content{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+}
