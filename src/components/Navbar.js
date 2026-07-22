@@ -4,7 +4,7 @@ import "../styles/navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">🍽️ FoodHouse</h2>
+      <h2 className="logo">🍽️ Royal Taste </h2>
 
       
 

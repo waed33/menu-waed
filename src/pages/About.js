@@ -1,5 +1,5 @@
 
-import styles from "../styles/About.css";
+import styles from "../styles/about.css";
 
 
 function About() {

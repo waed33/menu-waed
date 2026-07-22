@@ -8,7 +8,7 @@ import styles from "../styles/menu.css";
 
 const foods = [
 
-    // BURGERS 🍔
+  
 
     {
         id:1,
@@ -42,7 +42,7 @@ const foods = [
 
 
 
-    // PIZZA 🍕
+   
 
     {
         id:4,
@@ -110,7 +110,7 @@ const foods = [
 
 
 
-    // DESSERT 🍰
+  
 
     {
         id:10,
@@ -174,7 +174,7 @@ function Menu(){
 
 
 
-    // Remove item
+    
 
     const removeFromCart = (index)=>{
 
@@ -186,7 +186,7 @@ function Menu(){
 
 
 
-    // Total
+   
 
     const total = cart.reduce(
 
@@ -300,7 +300,7 @@ onChange={(e)=>setSearch(e.target.value)}
 
 
 
-{/* Filters */}
+
 
 <div className="filters">
 
@@ -326,24 +326,10 @@ filter===cat ? "selected" : ""
 
 {cat}
 
-</button>
-
-
-))
-
-
-}
-
+</button>))}
 
 </div>
 
-
-
-
-
-
-
-{/* Cards */}
 
 
 <div className="food-grid">
@@ -379,10 +365,6 @@ onClick={()=>setSelectedImage(food.image)}
 
 
 </div>
-
-
-
-
 
 <div className="content">
 
@@ -438,24 +420,9 @@ Add To Cart 🛒
 </div>
 
 
-))
-
-
-}
-
+))}
 
 </div>
-
-
-
-
-
-
-
-
-
-{/* Side Cart */}
-
 
 {
 
@@ -469,26 +436,11 @@ openCart && (
 
 className="close-cart"
 
-onClick={()=>setOpenCart(false)}
-
->
-
-✕
-
-</button>
-
-
-
+onClick={()=>setOpenCart(false)}>✕</button>
 
 <h2>
 🛒 Your Cart
-</h2>
-
-
-
-
-
-{
+</h2>{
 
 cart.length === 0 ?
 
@@ -520,69 +472,23 @@ key={index}
 {item.name}
 </h4>
 
-
 <p>
 {item.price}
 </p>
-
-
 </div>
-
-
 
 
 <button
 
-onClick={()=>removeFromCart(index)}
+onClick={()=>removeFromCart(index)}>❌</button>
 
->
-
-❌
-
-</button>
-
-
-</div>
-
-
-))
-
-
-}
-
-
-
-
-
+</div>))}
 
 
 <h3>
-
 Total: ${total}
 
-</h3>
-
-
-
-
-</div>
-
-
-)
-
-}
-
-
-
-
-
-
-
-
-
-{/* Image Zoom */}
-
-
+</h3></div>)}
 
 {
 
@@ -623,19 +529,10 @@ className="big-image"
 
 )
 
-
 }
-
-
 
 </section>
-
-
 );
-
-
 }
-
-
 
 export default Menu;
