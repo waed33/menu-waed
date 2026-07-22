@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/menu-waed/static/css/main.6c7106c5.css",
-    "main.js": "/menu-waed/static/js/main.efc7f045.js",
+    "main.js": "/menu-waed/static/js/main.e98e9888.js",
     "static/js/453.5f365a00.chunk.js": "/menu-waed/static/js/453.5f365a00.chunk.js",
     "static/media/pic1.png": "/menu-waed/static/media/pic1.6a4f031d38afc3d3bff8.png",
     "index.html": "/menu-waed/index.html",
     "main.6c7106c5.css.map": "/menu-waed/static/css/main.6c7106c5.css.map",
-    "main.efc7f045.js.map": "/menu-waed/static/js/main.efc7f045.js.map",
+    "main.e98e9888.js.map": "/menu-waed/static/js/main.e98e9888.js.map",
     "453.5f365a00.chunk.js.map": "/menu-waed/static/js/453.5f365a00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c7106c5.css",
-    "static/js/main.efc7f045.js"
+    "static/js/main.e98e9888.js"
   ]
 }
